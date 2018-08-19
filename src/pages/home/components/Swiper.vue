@@ -18,6 +18,12 @@
             swiperOption:{
               pagination:'.swiper-pagination',
               loop:true
+             /* paginationClickable: true,
+              speed: 2000,
+              observer:true,
+              observeParents:true,
+              autoplayDisableOnInteraction : false,
+              autoplay:1500*/
             },
             swiperList:[{
               id:'0001',
@@ -38,7 +44,7 @@
       overflow: hidden
       width: 100%
       height: 0
-      padding-bottom 26.6%
+      padding-bottom:26.6%
       background :#333333
       .swiper-img
           width :100%
